@@ -8,3 +8,5 @@
 4. [VS Code IDE](https://code.visualstudio.com)
 
 Create a new environment.
+
+conda create -p venv python==3.7 -y
