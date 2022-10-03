@@ -28,7 +28,7 @@ def predict():
     final_data=np.array(list(data))
     print(final_data)
     output=rf_model.predict([final_data])
-    output=output[0]
+    output=round(output[0],2)
     return render_template("home.html",prediction_text="Petrol Price Prediction is {}".format(output))
 
 
