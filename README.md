@@ -12,3 +12,5 @@ Create a new environment.
 ```
 conda create -p penv python==3.7 -y
 ```
+
+link: https://petrolpriceprediction.herokuapp.com/
